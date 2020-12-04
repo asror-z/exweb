@@ -1,0 +1,21 @@
+<?php
+
+use zetsoft\system\kernels\ZView;
+use zetsoft\system\Az;
+
+
+
+
+/** @var ZView $this */
+$this->init();
+
+$this->title = Az::l('create');
+$this->type = ZActionItem::type['html'];
+$this->debug = 1;
+
+?>
+            
+
+
+
+
